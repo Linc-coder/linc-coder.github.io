@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lincoln Kamau Kiarie, PhD - Research Fellow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light cool gray background */
+            color: #1e293b; /* Dark slate gray text */
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+        .section-title {
+            font-size: 1.875rem; /* text-3xl */
+            font-weight: 700; /* font-bold */
+            color: #1e40af; /* Darker blue for titles */
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #3b82f6; /* Blue border */
+            padding-bottom: 0.5rem;
+        }
+        .card {
+            background-color: #f1f5f9; /* Slightly darker cool gray for cards */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .link-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background-color: #2563eb; /* Blue-600 */
+            color: #ffffff;
+            border-radius: 0.5rem; /* rounded-lg */
+            font-weight: 500; /* font-medium */
+            transition: background-color 0.3s ease;
+        }
+        .link-button:hover {
+            background-color: #1d4ed8; /* Blue-700 */
+        }
+        .icon {
+            margin-right: 0.5rem;
+            width: 1.25rem; /* w-5 */
+            height: 1.25rem; /* h-5 */
+        }
+        .text-gray-700 { /* Override for general text within cards */
+            color: #475569; /* Slate-700 */
+        }
+        .text-gray-600 { /* Override for dates/subtitles */
+            color: #64748b; /* Slate-600 */
+        }
+        .text-gray-900 { /* Override for main name */
+            color: #0f172a; /* Slate-900 */
+        }
+        .text-indigo-600 { /* Override for specific links */
+            color: #2563eb; /* Blue-600 */
+        }
+        .hover\:underline:hover { /* Ensure underline still works on hover */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center py-8 bg-white rounded-xl shadow-md mb-6">
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Lincoln Kamau Kiarie, PhD</h1>
+            <p class="text-xl text-gray-600 mb-4">Research Fellow - Machine Learning & AI Systems</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="mailto:linc.code@gmail.com" class="link-button">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    Email
+                </a>
+                <a href="https://www.linkedin.com/in/lincoln-k/" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.3 16.3H13.7V11.2c0-1.3-.5-2.2-1.7-2.2-1.3 0-2 .9-2 2.2v5.1H7.3V7.7h2.4v1.1c.3-.6 1.1-1.3 2.3-1.3 2.5 0 3.7 1.6 3.7 4.7v4.1zM4.9 6.7a1.8 1.8 0 110-3.6 1.8 1.8 0 010 3.6zM6.1 16.3H3.7V7.7h2.4v8.6z" clip-rule="evenodd"></path></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/kamaulincoln/" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.419 2.865 8.167 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.7-2.782.604-3.368-1.34-3.368-1.34-.454-1.152-1.107-1.46-1.107-1.46-.907-.618.069-.607.069-.607 1.004.07 1.532 1.03 1.532 1.03.89 1.528 2.336 1.087 2.903.832.09-.645.35-1.087.636-1.338-2.22-.252-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.029-2.682-.103-.252-.446-1.27.098-2.651 0 0 .84-.268 2.75 1.025.798-.222 1.649-.333 2.5-.337 2.493.004 3.344.115 4.142.337 1.91-1.293 2.748-1.025 2.748-1.025.546 1.381.203 2.399.098 2.651.64.698 1.029 1.592 1.029 2.682 0 3.842-2.339 4.686-4.566 4.935.359.308.678.917.678 1.854 0 1.338-.012 2.419-.012 2.747 0 .268.18.579.688.482C17.135 18.167 20 14.419 20 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                    GitHub
+                </a>
+                <a href="https://scholar.google.com/citations?user=3gJVoSkAAAAJ" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 3L1 9l11 6 11-6-11-6zm0 2.236L3.236 9 12 13.764 20.764 9 12 5.236zM3 10.5v8.5l9 4 9-4v-8.5L12 15 3 10.5z"/>
+                    </svg>
+                    Google Scholar
+                </a>
+                <a href="Lincoln - CV Research Fellow.pdf" target="_blank" rel="noopener noreferrer" class="link-button">
+                    <svg class="icon" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4a2 2 0 012 2v2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-4H2a2 2 0 01-2-2V8a2 2 0 012-2h2V4zm6 6a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zm-4 0a1 1 0 011-1h2a1 1 0 110 2H7a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                    Download CV
+                </a>
+            </div>
+        </header>
+
+        <!-- About Me Section -->
+        <section class="card">
+            <h2 class="section-title">About Me</h2>
+            <p class="text-gray-700 leading-relaxed">
+                With over 10 years of experience in software development, I currently specialise in creating robust Reinforcement Learning (RL) models to solve critical challenges in computer networks, network security and in personalised healthcare. 
+                My research is driven by the goal of creating robust and trustworthy AI systems that can safely enhance human human-being. 
+                My doctoral research addressed the critical challenge of congestion control. 
+                To this end I developed a customised learning environment, a hybrid method of RL training and a constraint based technique to enhance AI safety. 
+                I lead a team of five doctoral researchers in developing a patent pending AI-powered insulin delivery tool to assist children with Type 1 Diabetes. 
+                I have authored or co-authored 5 journal papers and 11 conferences papers, and supervised over 20 undergraduate students in their final year projects.
+            </p>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="card">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">PhD Electrical, Electronic and Systems Engineering</h3>
+                <p class="text-gray-600">Loughborough University | Jan 2022 - June 2025</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Developed a novel Reinforcement Learning (RL) approach to integrating a rule-based algorithm to guide exploration.</li>
+                    <li>Developed a framework for safe AI. Implemented a technique for safe RL exploration using cost constraints to encourage safe behaviour during training.</li>
+                    <li>Led a team of five PhD researchers in an AI Innovation Start-up Hackathon using Reinforcement Learning to help manage blood sugar levels of Type 1 diabetic children.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">Research Associate, Security Engineering (Machine Learning)</h3>
+                <p class="text-gray-600">Autonomous Resilient Cyber Defence Project (DSTL funded) | Aug 2022 - July 2023</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Led development of simulated learning environment for implementing RL defences.</li>
+                    <li>Authored periodic reports, prepared and gave presentations to DSTL.</li>
+                    <li>Onboarded new team members by guiding them through the workflow.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">Tutorial Fellow (Lecturing)</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | June 2020 - Present</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Taught Computer Programming, Network Security and Cryptography, Computer Networks, Microprocessors, DBMS, Operating Systems and other courses.</li>
+                    <li>Established industry connections by inviting alumni as guest lecturers to help connect theoretical classroom concepts with industry practices.</li>
+                    <li>Organised three annual cybersecurity conferences for final year students.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">Departmental Secretary for Telecommunication and Information Engineering</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | Dec 2015 - Dec 2020</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Authored a National Research Fund infrastructure grant proposal worth £1,000,000.</li>
+                    <li>Coordinated upgrading the curriculum for the undergraduate engineering course.</li>
+                    <li>Developed tools for effective communication, such as setting up Google Groups and Calendar for the department's staff.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-xl font-semibold text-gray-800">Teaching Assistant</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | Oct 2011 - June 2020</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Conducted research in smart grid communication and cybersecurity.</li>
+                    <li>Representative for Community Engaged Learning, a program encouraging active community participation within the classroom, run by Western University, Canada.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800">Freelance Consultant</h3>
+                <p class="text-gray-600">Software developer & Coaching | Jan 2011 - Dec 2021</p>
+                <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                    <li>Developed “Traffic Light Simulator” for Nation Media Group to model cars moving at a roundabout controlled by traffic lights.</li>
+                    <li>Successfully deployed a “Graph data extractor” tool for recovering data points from a 2D graphical image.</li>
+                    <li>Training and Debugging of MATLAB code</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="card">
+            <h2 class="section-title">Education</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">PhD Electrical, Electronic and Systems Engineering</h3>
+                <p class="text-gray-600">Loughborough University | 2022-2025</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">Master of Science Degree in Telecommunication Engineering</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | 2011-2019</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold text-gray-800">BSc. Electrical Electronics Engineering - 1st Class Honours</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | 2006-2012 (Double degree)</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800">BSc. Telecommunication & Information Engineering - 1st Class Honours</h3>
+                <p class="text-gray-600">Jomo Kenyatta University of Agriculture and Technology | 2006-2010</p>
+            </div>
+        </section>
+
+        <!-- Publications and Presentations Section -->
+        <section class="card">
+            <h2 class="section-title">Selected Publications and Presentations</h2>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Journal Papers</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                <li><strong>Lincoln Kamau Kiarie</strong>, M. Derakhshani, K. Kyriakopoulos, <em>"Design Principles for Reinforcement Learning in Congestion Control Environments"</em>, IEEE Access, 2025 doi:10.1109/ACCESS.2025.3569093. <a href="https://ieeexplore.ieee.org/document/11000309" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln K. Kiarie</strong>, M. Derakhshani, K. Kyriakopoulos, <em>"Expert-driven Jumpstart Reinforcement Learning for Managing Network Congestion Control"</em>, Journal Paper submitted to Knowledge Based Systems - Elsevier (under review) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5274748" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li>Kyriakopoulos, K., <strong>Kiarie, L.</strong>, Aristodemou, M., et. al, <em>"Intelligent Asset Parameterisation for Risk-Based Moving Target Defence"</em>. Available at SSRN 5092340. Journal paper submitted to Computer Networks - Elsevier (under review) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5092340" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln K. Kiarie</strong>,P. K. Langat and C. M. Muriithi,<em>"Application of spritz encryption in smart meters to protect consumer data"</em>. Journal of Computer Networks and Communications, Volume 2019, Issue 1, 5910528 <a href="https://onlinelibrary.wiley.com/doi/full/10.1155/2019/5910528" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln K. Kiarie</strong>,P. K. Langat and C. M. Muriithi,<em>"The use of RC4 Encryption to Provide Privacy for Smart Meters"</em>. Journal of Sustainable Research in Engineering, Volume 4, Issue 2, 69-75 <a href="http://41.89.243.34:8080/xmlui/handle/123456789/4425" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+
+
+            </ul>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Conference Papers</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                <li>Anh Tuan Le, Gregory Epiphaniou, Carsten Maple, Konstantinos G Kyriakopoulos, <strong>Lincoln Kiarie</strong>, Marios Aristodemou, Iain Phillips, <em>"Automated APT Defense Using Reinforcement Learning and Attack Graph Risk-based Situation Awareness"</em> In Proceedings of the Workshop on Autonomous Cybersecurity (Autonomous Cyber '24), Salt Lake City, UT, USA, 2024 <a href="https://dl.acm.org/doi/10.1145/3689933.3690834" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln K. Kiarie</strong>, P. K. Langat and C. M. Muriithi, <em>"Key Generation for Electrical Smart Meters using Hash Functions"</em>, 2019 IEEE AFRICON, Accra, Ghana, 2019. <a href="https://ieeexplore.ieee.org/document/9134054" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li>E. N. Nyambane, C. Mwaura, <strong>L. K. Kiarie</strong>, <em>"Use of a Robot to Clean Drainage Structures"</em>, 2018, The 13th JKUAT Scientific and Technology Conference <a href="https://sri.jkuat.ac.ke/jkuatsri/index.php/sri/article/view/368" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li>KM Muthiani, MN Karere, <strong>Lincoln K. Kiarie</strong>, <em>"Design of a Real-Time System for Remotely Monitoring Occupancy and Tracking Location of Public Service Vehicles"</em> Proceedings of Sustainable Research and Innovation Conference, 162-167, 2020 <a href="http://ir.jkuat.ac.ke/bitstream/handle/123456789/6489/Design of a Real-Time System for Remotely Monitoring Occupancy and Tracking Location of Public Service Vehicles.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln Kamau</strong>, Philip Kibet, Christopher M Muriithi, Robert Macharia, <em>"A method for Extracting Data Points from an Image of a Plotted Graph"</em>, VizAfrica 2018, Visualization Symposium. <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>L. K. Kiarie</strong>, Philip Kibet, Christopher M Muriithi, <em>"Leakage of customer privacy in electrical smart meters and solutions to the problem"</em>, 2018, The 13th JKUAT Scientific and Technology Conference <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li>Fredrick Njoroge, Kevin Kiruri, <strong>Lincoln Kamau</strong>, <em>"Secure Hand-Held Radio with RC4 Encryption"</em>, JKUAT Annual Scientific Conference Proceedings, 167-181, 2018 <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li>Kevin Kiruri, <strong>Lincoln K. Kiarie</strong>, <em>"Lessons On Cyber Security: A Case Study Of Wannacry Ransomware"</em> JKUAT Annual Scientific Conference Proceedings, 192-198, 2018 <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln K. Kiarie</strong>, P Kibet, C Maina, <em>"The use of RC4 Encryption for Smart Meters"</em>, Proceedings of Sustainable Research and Innovation Conference, 58-62, 2014 <a href="#" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+                <li><strong>Lincoln Kamau</strong>, P Kibet, CM Muriithi, <em>"Opportunities and Challenges for Smart Grid Communications"</em>, Sustainable Research and Innovation (SRI), 2013 <a href="https://repository.mut.ac.ke/xmlui/bitstream/handle/123456789/2816/Muriithi_Conference No 19 SRI 2013 - Paper on Smart Grid.pdf?sequence=1&isAllowed=y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[Link]</a></li>
+            </ul>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">PRESENTATIONS (POSTERS AND TALKS)</h3>
+            <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                <li><strong>Lincoln K. Kiarie</strong>, Derakhshani, K. Kyriakopoulos, <em>"Smart Internet Congestion Control using Reinforcement Learning"</em>, Poster Presentation: Doctoral Summer Showcase 2024</li>
+                <li><strong>Lincoln K. Kiarie</strong>, Derakhshani, K. Kyriakopoulos, <em>"Internet Congestion Control using Reinforcement Learning"</em>, Conference Presentation, Engineering Schools’ Doctoral Research Conference 2024</li>
+                <li>Anh Tuan Le, Gregory Epiphaniou, Carsten Maple, Konstantinos G Kyriakopoulos, Iain Phillips, Marios Aristodemou, <strong>Lincoln K. Kiarie</strong>, <em>“Intelligent Asset Parameterisation for Risk-based Moving Target Defence”</em> Farnborough - Show and Tell Industry Day Poster</li>
+                <li><em>Three Minute Thesis (3MT) Finalist 2025</em> – Wolfson School of Mechanical, Electrical and Manufacturing Engineering, Loughborough University</li>
+            </ul>
+        </section>
+
+        <!-- Awards and Distinctions Section -->
+        <section class="card">
+            <h2 class="section-title">Awards and Distinctions</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li>Most Innovative Paper Award at the 1st Int. workshop on Autonomous Cyber, with 31st ACM CCS, 18th, Salt Lake City, U.S.A. 2024.</li>
+                <li>Commonwealth Scholarship Award (2021)</li>
+                <li>National Mathematics Contest - 2nd & 3rd Position in 2004 & 2005</li>
+            </ul>
+        </section>
+
+        <!-- Training and Certification Section -->
+        <section class="card">
+            <h2 class="section-title">Training and Certification Section</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li><strong class="font-medium">Tech Ethics: Avoiding Unintended Consequences</strong> (LinkedIn Learning): Covered developing technology that avoids ethical pitfalls and other harms. <a href="https://www.linkedin.com/learning/certificates/5d6cea92867de8aae609906a4172f051ace34f882910893e3f86cb4b22deb253?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BYmCbpdH%2BT5GgOSOrk3Vzpg%3D%3D" class="text-indigo-600 hover:underline">View certificate</a></li>
+                <li><strong class="font-medium">Python Essential Training</strong> (LinkedIn Learning): Covered core programming components of variables, flow control, classes, error handling, and advanced topics. <a href="https://www.linkedin.com/learning/certificates/b4c40ff03f568e0116c84a51f9ba5e943eacbc3fd5de09bc803ce40098971424?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bjs3qKstAQ5mReXFqXvGRpQ%3D%3D" class="text-indigo-600 hover:underline">View certificate</a></li>
+                <li><strong class="font-medium">Java</strong> (IBM): Covered Object-Oriented programming, the Java platform, syntax, strings and operators, control statements, and Java frameworks. <a href="https://www.credly.com/badges/1e946b16-6f46-4b69-9890-bf3fc4216af7" class="text-indigo-600 hover:underline">View certificate</a></li>
+                <li><strong class="font-medium">Artificial Intelligence Intro</strong> (IBM): Topics included Artificial Intelligence, Augmented Intelligence, Machine Learning, and Natural Language Processing. <a href="https://www.credly.com/badges/3cdd9379-5fc7-42a2-8ba5-e759fbd0cc22" class="text-indigo-600 hover:underline">View certificate</a></li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="card">
+            <h2 class="section-title">Skills</h2>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold text-gray-800">Writing Tools:</h3>
+                <p class="text-gray-700">LaTeX (used for PhD thesis and journal/conference papers), Microsoft Word (used for MSc thesis and papers), Obsidian (used in a range of writing projects).</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold text-gray-800">Programming Languages:</h3>
+                <p class="text-gray-700">Python, MATLAB, Java, C/C++, and Assembly Programming</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold text-gray-800">Python Libraries I use:</h3>
+                <p class="text-gray-700">NumPy, Matplotlib, Pytorch, Pandas, StableBaselines3, CleanRL, Tyro, Wandb.</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold text-gray-800">Development Tools:</h3>
+                <p class="text-gray-700">Linux OS (especially Ubuntu), Weights & Biases (an AI developer platform for managing multiple experiments), Tensorboard (for monitoring model training performance), Git (for software version control).</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="text-lg font-semibold text-gray-800">Communication:</h3>
+                <p class="text-gray-700">Regularly delivered lectures/conference presentations. Written extensively in professional and informal contexts. I blog on various topics, including AI.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-800">Leadership:</h3>
+                <p class="text-gray-700">Chapter President at Mission Supporters League (MSL). High School Mathematics Club Chair. Apartment Chairman of the residents' Association.</p>
+            </div>
+        </section>
+
+        <!-- Sample Software Projects Section -->
+        <section class="card">
+            <h2 class="section-title">Sample Software Projects</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-4">
+                <li class="flex flex-col sm:flex-row sm:items-center justify-between">
+                    <div class="flex-1 mb-2 sm:mb-0">
+                        <strong class="font-medium">Traffic Light Simulator:</strong> A Java app developed for Nation Media Group to model cars moving at a roundabout controlled by traffic lights.
+                    </div>
+                </li>
+                <li class="flex flex-col sm:flex-row sm:items-center justify-between">
+                    <div class="flex-1 mb-2 sm:mb-0">
+                        <strong class="font-medium">Tower of Hanoi GUI game:</strong> An app that allows a user to play the traditional game of Tower of Hanoi, where the objective is to reorder discs based on logical rules. <a href="https://github.com/kamaulincoln/Java-Projects" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline text-sm ml-2">[GitHub]</a>
+                    </div>
+                </li>
+                <li class="flex flex-col sm:flex-row sm:items-center justify-between">
+                    <div class="flex-1 mb-2 sm:mb-0">
+                        <strong class="font-medium">Graph data extractor:</strong> A tool for recovering data points from a 2D graph image.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Hobbies and Interests Section -->
+        <section class="card">
+            <h2 class="section-title">Hobbies and Interests</h2>
+            <ul class="list-disc list-inside text-gray-700 space-y-1">
+                <li><strong class="font-medium">Chess:</strong> Gold medallist at Kenya University Games 2009, participant in All-African Games 2008, 2nd place in the Loughborough chess club Rapid 2024 competition.</li>
+                <li><strong class="font-medium">Solving puzzles:</strong> Solved 70+ math/coding problems at <a href="https://projecteuler.net" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Project Euler</a>.</li>
+                <li><strong class="font-medium">Books:</strong> Reading and audiobooks. Favourites on Tech and AI:
+                    <ul class="list-disc list-inside ml-6 mt-2 space-y-1">
+                        <li><a href="https://amzn.to/4lRyQJi" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">"The Alignment Problem: How can Artificial Intelligence Learn Human Values?"</a> by Brian Christian (2021)</li>
+                        <li><a href="https://amzn.to/3U4rztt" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">"2084 and the AI Revolution"</a> by Prof John Lennox (2024)</li>
+                        <li><a href="https://amzn.to/4mbgbYE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">"Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion"</a> by Hal Abelson, et al (2019)</li>
+                        <li><a href="https://amzn.to/4fdhmVa" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">"The Tech-Wise Family: Everyday Steps for Putting Technology in Its Proper Place"</a> by Andy Crouch (2017)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="text-center py-6 text-gray-500 text-sm">
+            <p>&copy; 2025 Lincoln Kamau Kiarie. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
